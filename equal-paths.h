@@ -29,4 +29,8 @@ struct Node {
  */
 bool equalPaths(Node * root);
 
+int longestPath(Node* root);
+
+int shortestPath(Node* root);
+
 #endif
