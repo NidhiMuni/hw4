@@ -600,6 +600,7 @@ void BinarySearchTree<Key, Value>::remove(const Key& key)
         root_ = promoted;
       }
       delete toRemove;
+      
     } else { //no children
       Node<Key, Value>* par = toRemove->getParent();
       if (par != nullptr){ //if parent exists
